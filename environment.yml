@@ -1,0 +1,16 @@
+name: ES3Net
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pytorch==1.12.0
+  - torchvision==0.13.0 
+  - cudatoolkit=11.6
+  - matplotlib
+  - numpy
+  - tqdm
+  - opencv
+  - pip:
+    - chardetp
