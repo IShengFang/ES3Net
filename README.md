@@ -45,7 +45,7 @@ The filename of checkpoint is `ES3Net_kitti_raw_best.cpt`.
 
 ## Citations
 ```Bibtex
-@InProceedings{Fang_2023_CVPR,
+@InProceedings{Fang2023ES3Net,
     author    = {Fang, I-Sheng and Wen, Hsiao-Chieh and Hsu, Chia-Lun and Jen, Po-Chung and Chen, Ping-Yang and Chen, Yong-Sheng},
     title     = {ES3Net: Accurate and Efficient Edge-Based Self-Supervised Stereo Matching Network},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
