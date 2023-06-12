@@ -117,6 +117,7 @@ if __name__ == '__main__':
         model_state_dict = OrderedDict()
 
         for k, v in state_dict['state_dict'].items():
+            k = k.replace('module.', '')
             model_state_dict[k] = v
 
         model.load_state_dict(model_state_dict)
